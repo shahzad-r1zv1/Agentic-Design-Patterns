@@ -90,6 +90,7 @@ This book answers all that with patterns you can actually apply. The 70+ page ap
 - [Appendix E - AI Agents on the CLI](05-Appendix/Appendix_E-AI_Agents_on_the_CLI-1W4znto0a8Ikajw5a4tEyRAaB2nJPJw_iFc4w4qNnjho.md)
 - [Appendix F: Under the Hood: An Inside Look at the Agent's Reasoning Engines](05-Appendix/Appendix_F-Under_the_Hood_An_Inside_Look_at_the_Agents_Reasoning_Engines-14q3fQ-FZmDgiughno_WLSILMWkURvUgR7mlGiFtvwd4.md)
 - [Appendix G: Coding Agents](05-Appendix/Appendix_G-Coding_Agents-1tVyhgwrD4fu_D_pHUrwhNxoguRG3tLc1KObXFxrxE_s.md)
+- [Appendix H: Agentic Design Gems from Recent Research](05-Appendix/Appendix_H-PDF_Derived_Agentic_Design_Gems-1ZNewPDFInsights.md)
 
 ## Modernization Initiative
 

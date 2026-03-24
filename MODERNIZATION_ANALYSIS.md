@@ -318,6 +318,23 @@
 - Chapter 27: Production Case Studies and Lessons Learned
 - Appendix P: Anti-Patterns and Common Mistakes
 
+### 11. Resilience and Adaptability (NEW INSIGHT FROM 2026 SLR)
+
+**Current State:**
+- Evaluation/monitoring focuses on autonomy and efficiency; resilience and adaptability are implicit
+- Limited guidance on how agents self-modify plans during runtime or recover from unexpected failures
+
+**Recommended Updates (drawn from the 2026 SLR taxonomy of Memory Cognition, Networking Systems, Trust Safety, Evaluation Limits, and Applications Use-Cases):**
+- **Metacognitive Architectures:** Add a reference design where a supervisor loop inspects planner/executor traces, rewrites plans in real time, and updates tool-selection policies when the environment shifts
+- **Resilience Benchmarks:** Move beyond task accuracy to resilience metrics (recovery time from tool/API failure, plan-rewrite success rate, degraded-mode quality) and bake these into acceptance criteria
+- **Chaos Engineering for Agents:** Introduce controlled failure injections across memory stores, message buses, and external tools to validate adaptive behavior before production deployment
+- **Adaptive Learning Loops:** Document patterns for lightweight post-deployment updates (policy tweaks, retrieval re-ranking, cache/prompt strategy refresh) without full model retraining
+- **Trust-Safety Under Drift:** Pair resilience work with proactive guardrails (fallback intent checks, rate-aware throttling) so adaptive agents do not widen the blast radius when plans change
+
+**Suggested New Sections:**
+- Chapter 19C: Resilience Benchmarks and Chaos Testing for Agents
+- Appendix Q: Metacognitive Agent Reference Architecture (planner, executor, supervisor, and adaptation hooks)
+
 ## Recommended Priority for Updates
 
 ### Immediate (Next 3-6 months)

@@ -335,6 +335,21 @@
 - Chapter 19C: Resilience Benchmarks and Chaos Testing for Agents
 - Appendix Q: Metacognitive Agent Reference Architecture (planner, executor, supervisor, and adaptation hooks)
 
+### 12. PDF-Derived Agentic Design Gems (Feb 2026 additions)
+
+- **Human–Agentic SDLC Security (Ayouni et al., 2026):** Build DevSecOps copilot loops where agentic scanners handle breadth (auto triage, patch suggestions) while human reviewers gate risk acceptance and regulatory alignment; add escalation heuristics for “low-risk” findings that become high-impact in new contexts.
+- **Energy-Efficient Worker–Supervisor LLMs for Science (Baibakova & Serov, 2026):** Use a fine-tuned small worker for tool codegen and a large supervisor for short refinement/validation to cut cost and hallucinations; generalize this split-brain pattern for tool-heavy agents (ETL, infra-as-code, analytics).
+- **Ethics Beyond Asimov (Bozkurt, 2025):** Pair autonomy with dynamic guardrails that encode organizational “laws,” plus human-agency preservation (easy override, audit trails) to avoid opaque delegation creep.
+- **S5 Sustainable Design Framework (Maldonado-Romo et al., 2026):** Patternize multi-agent coordination around Sensing, Smart, Sustainability, Social, and Safe dimensions with shared traceability across digital/physical twins; add lifecycle dashboards per dimension.
+- **Four-Phase Autonomy Loop (Pati, 2025):** Emphasize a continuous loop of data → decision → learning → collaboration; add fleet-level knowledge sharing and rerouting patterns to Collaboration chapters.
+- **Gen Z Adoption Drivers (Hasselwander & Lah, 2026):** Treat trust, transparency, and control as necessary conditions for uptake; add UX patterns for consent defaults, notice-and-choice, and easy agent pausing.
+- **Healthcare Seven-Dimensional Taxonomy (Vatsal et al., 2026):** Embed self-monitoring/deferral triggers, multi-agent deliberation, and consensus checks for high-stakes tasks; map dimensions (cognitive capability, tools, safety, supervision, etc.) to evaluation rubrics.
+- **DAWN Distributed Architecture (Aminiranjbar et al., 2025):** Principal-agent orchestrator with gateway agents enforces data locality and composable resource discovery; add patterns for execution graphs and restartable plans across org boundaries/VPCs.
+- **Graph RAG for SEL (Fotopoulou et al., 2026):** Domain knowledge graphs + RAG + persona agents enable explainable, context-safe guidance; generalize to any regulated domain (finance, gov) with KG-backed provenance.
+- **Agentic Software Engineering SLR (Otoum & Elkhalili, 2026):** Incorporate ASE lifecycle guidance—autonomous coding, multi-agent refinement, and evaluation baselines—into Chapter 12/Dev practices, including threats-to-validity checklists.
+- **Traceable Ops Scheduling (Cirillo et al., 2025):** Simulation-in-the-loop multi-agent planning with RAG-grounded instructions to ensure traceability and explainability; add “plan-with-simulation” as a template for logistics/ops agents.
+- **Critical Infrastructure Protection (Yigit et al., 2025):** All-hazards risk playbooks (IR + BCP), continuous posture assessment, and secure-by-design controls (IDS, crypto, blockchain provenance) as mandatory guardrails for agents touching CNI.
+
 ## Recommended Priority for Updates
 
 ### Immediate (Next 3-6 months)
